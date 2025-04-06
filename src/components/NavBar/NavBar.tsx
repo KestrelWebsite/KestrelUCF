@@ -9,7 +9,7 @@ export default function NavBar() {
           <NavBarLink label="About" />
           <NavBarLink label="DevLogs" />
           <NavBarLink label="Teams" />
-          <NavBarLink label="Github" externalHref="https://github.com/yourusername/yourrepo" />
+          <NavBarLink label="Github" externalHref="https://github.com/Autonomous-droneProject/Main" />
         </div>
       </header>
     </nav>
