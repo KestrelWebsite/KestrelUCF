@@ -18,4 +18,4 @@ jobs:
           server: ftp.kestrelucf.com
           username: ${{ ProjectKestrelAdmin@kestrelucf.com }}
           password: ${{ wI0mH%M2ixsvKcK# }}
-          local-dir: ./dist/
+          local-dir: ./dist
