@@ -72,12 +72,12 @@ const About = () => {
 
       <section className="pt-10 w-screen">
         <div className="">
-          <div className="absolute flex justify-center pt-5 w-screen">
-            <h1 className="text-5xl font-serif font-bold text-amber-100">
+          <div className="absolute flex justify-center pt-10 w-screen">
+            <h1 className="text-5xl font-serif font-bold text-neutral-700">
               The Team
             </h1>
           </div>
-          <img className="" src="GroupSample.jpg" />
+          <img className="" src="FD_4.png" />
         </div>
       </section>
     </div>
