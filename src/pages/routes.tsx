@@ -5,8 +5,20 @@ import About from "./About";
 import Devlogs from "./Devlogs";
 import Teams from "./Teams";
 
-//Club Websites:
-  //http://charginknights.com/
+/*Club Links:
+  CK:
+    http://charginknights.com/
+  ACM:
+    https://discord.gg/GxJACm8S9H
+    https://linktr.ee/acmucf
+  AI @ UCF:
+    
+
+
+
+*/
+
+
 
 const router = createBrowserRouter(
   [
