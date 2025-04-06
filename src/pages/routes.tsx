@@ -12,10 +12,8 @@ import Teams from "./Teams";
     https://discord.gg/GxJACm8S9H
     https://linktr.ee/acmucf
   AI @ UCF:
-    
-
-
-
+    https://ucfai.org/
+    https://knightconnect.campuslabs.com/engage/organization/ucfai
 */
 
 

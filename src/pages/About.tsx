@@ -6,8 +6,9 @@ const About = () => {
       </div>
       <div className="text-amber-50 pt-6 text-center font-serif justify-center w-2/3 items-center m-auto">
         Kestrel is an autonomous videography drone initiative developed by
-        student teams within ACM at UCF, focused on pushing the boundaries of
-        aerial robotics. The project combines expertise from both hardware and
+        student teams within several student ran clubs at UCF. Kestrel's focus was on pushing the boundaries of
+        aerial robotics while integrating the intelligence of modern day computing systems. 
+        The project combines expertise from both hardware and
         software disciplines to design, build, and program drones capable of
         intelligent flight. Whether it's object detection, pathfinding, or
         dynamic control, Kestrel aims to provide a comprehensive platform for
@@ -20,14 +21,12 @@ const About = () => {
             src="FlyingDrone.jpg"
           ></img>
           <div className="w-full h-full bg-amber-50">
-            <h1 className="text-2xl text-center text-neutral-900">Circuitry</h1>
+            <h1 className="text-2xl text-center text-neutral-900">Hardware Team</h1>
             <p className="flex justify-center text-center pt-4">
-              The Hardware Team is responsible for the electronic backbone of
-              Kestrel. From designing custom PCBs to integrating sensors, power
-              systems, and motor controllers, this team ensures the drone has a
-              robust and reliable infrastructure. Their work allows Kestrel to
-              maintain stable flight and interface seamlessly with onboard
-              computing units and software components.
+            The Hardware Team underpins Kestrel's stability and responsiveness, designing and implementing the electronic systems that allow seamless integration with software logic. 
+            They are developing a custom sensing array using VL53L1X ToF sensors, creating region-of-interest-based data that feeds directly into software-generated heat maps. 
+            On the control side, the Ardu-Pilot subteam is gathering key hardware parameters such as weight distribution to inform dynamic piloting algorithms. 
+            Their upcoming goal is to enable real-time responsiveness by passing structured sensor and flight path data into Ardu-Pilot, allowing the drone to follow computed routes, avoid obstacles, and keep its camera focused on the target group through coordinated motor control and body rotation.
             </p>
           </div>
         </div>
@@ -38,15 +37,13 @@ const About = () => {
           ></img>
           <div className="w-full h-full bg-amber-50">
             <h1 className="text-2xl text-center text-neutral-900">
-              Model Training
+              Software Team
             </h1>
             <p className="flex justify-center text-center pt-4">
-              The Software Team specializes in developing machine learning
-              models to give Kestrel its intelligence. Using datasets gathered
-              from real-world testing and simulation environments, the team
-              trains models for object detection, flight path optimization, and
-              obstacle avoidance. These models are then deployed onto the drone,
-              enabling it to make decisions in real-time.
+            The Software Team drives the intelligence behind Kestrel by developing and integrating machine learning models and autonomous flight logic. 
+            Collaborating closely with the Hardware Team, they receive real-time sensor data to build region-based heat maps using VL53L1X ToF sensors, which are later stitched together to inform the drone's awareness of its environment. 
+            They are also refining detection and tracking models with a diverse dataset to maintain accurate identification of groups mid-flight. On the pathing side, the team is exploring geodesic distance calculations and Ricci flow algorithms to smooth out flight paths for safer, more efficient navigation. 
+            Additionally, they are developing base station initialization logic to manage flight sequence commands like takeoff and landing, ensuring clear control boundaries for the operator.
             </p>
           </div>
         </div>
@@ -58,7 +55,7 @@ const About = () => {
           <div className="w-full h-full bg-amber-50">
             <h1 className="text-2xl text-center text-neutral-900">Research</h1>
             <p className="flex justify-center text-center pt-4">
-              Our research focuses onreinforcement learning, deep learning,
+              Our research focuses on object tracking, deep learning,
               obstacle avoidance, and flight path optimization. By experimenting
               with neural networks and decision-making algorithms, we aim to
               improve Kestrel's ability to fly autonomously in dynamic
@@ -72,12 +69,12 @@ const About = () => {
 
       <section className="pt-10 w-screen">
         <div className="">
-          <div className="absolute flex justify-center pt-10 w-screen">
-            <h1 className="text-5xl font-serif font-bold text-neutral-700">
+          <div className="absolute flex justify-center pt-5 w-screen">
+            <h1 className="text-5xl font-serif font-bold text-amber-100">
               The Team
             </h1>
           </div>
-          <img className="" src="FD_4.png" />
+          <img className="" src="GroupSample.jpg" />
         </div>
       </section>
     </div>
