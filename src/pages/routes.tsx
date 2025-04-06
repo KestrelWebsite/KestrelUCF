@@ -3,6 +3,10 @@ import HomePage from "./HomePage";
 import Layout from "../Layout";
 import About from "./About";
 import Devlogs from "./Devlogs";
+import Teams from "./Teams";
+
+//Club Websites:
+  //http://charginknights.com/
 
 const router = createBrowserRouter(
   [
@@ -13,6 +17,7 @@ const router = createBrowserRouter(
         { index: true, element: <HomePage /> },
         { path: "about", element: <About /> },
         { path: "devlogs", element: <Devlogs /> },
+        { path: "teams", element: <Teams />}
       ],
     },
   ],

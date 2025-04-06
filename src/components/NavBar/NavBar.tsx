@@ -8,8 +8,8 @@ export default function NavBar() {
         <div className=" w-full flex justify-center items-center gap-20 py-2">
           <NavBarLink label="About" />
           <NavBarLink label="DevLogs" />
-          <NavBarLink label="Photos" />
-          <NavBarLink label="Timeline" />
+          <NavBarLink label="Teams" />
+          <NavBarLink label="Github" externalHref="https://github.com/yourusername/yourrepo" />
         </div>
       </header>
     </nav>
