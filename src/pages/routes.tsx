@@ -4,16 +4,21 @@ import Layout from "../Layout";
 import About from "./About";
 import Devlogs from "./Devlogs";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        { index: true, element: <HomePage /> },
+        { path: "about", element: <About /> },
+        { path: "devlogs", element: <Devlogs /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Layout />,
-    children: [
-      { index: true, element: <HomePage /> },
-      { path: "about", element: <About /> },
-      { path: "devlogs", element: <Devlogs /> },
-    ],
-  },
-]);
+    basename: "/KestrelUCF",
+  }
+);
 
 export default router;
